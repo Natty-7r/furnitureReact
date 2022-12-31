@@ -1,0 +1,60 @@
+/* ---------------- hero sections  starts ------------- */
+/* ---------------- mobile navbar list  starts  ------------- */
+.hero .navbar {
+  padding: 3rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  color: var(--white);
+}
+.navbar .humburger {
+  flex-basis: 10%;
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+
+  .bar {
+    background-color: var(--white);
+    height: 1px;
+    border-radius: 50%;
+  }
+  .bar_1 {
+    width: 0.8rem;
+  }
+  .bar_2 {
+    width: 1.4rem;
+  }
+  .bar_3 {
+    width: 1.1rem;
+  }
+}
+.logo_div {
+  text-transform: capitalize;
+  margin-left: -2rem;
+  font-weight: lighter;
+}
+.btn_lang {
+  background-color: transparent;
+  border: none;
+  color: var(--golden);
+  /* text-decoration: underline; */
+  text-transform: capitalize;
+  border: solid thin var(--golden);
+  padding: 0.1rem 0.6rem;
+}
+
+.mobile_navlist {
+  display: none;
+  list-style: none;
+  position: absolute;
+  left: 0rem;
+  width: 30%;
+  background-color: var(--white);
+  color: var(--gray);
+
+  .mobile_navlist li {
+  }
+  .mobile_navlist li a {
+  }
+}
